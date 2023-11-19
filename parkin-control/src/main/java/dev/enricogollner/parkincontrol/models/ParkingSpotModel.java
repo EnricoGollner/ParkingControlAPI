@@ -7,8 +7,8 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.UUID;
 
-@Entity  // Tornando esse model uma entidade do banco de dados
-@Table(name = "TB_PARKING_SPOT")  // definindo o nome da tabela que será gerada no banco de dados
+@Entity  // Tornando o model uma entidade do banco de dados
+@Table(name = "TB_PARKING_SPOT")  // Definindo o nome da tabela que será gerada no banco de dados
 public class ParkingSpotModel implements Serializable {
     private static final long serialVersionUID = 1L;
 

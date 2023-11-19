@@ -12,8 +12,4 @@ public class ParkinControlApplication {
 		SpringApplication.run(ParkinControlApplication.class, args);
 	}
 
-	@GetMapping("/")
-	public String index() {
-		return "Hello, world!";
-	}
 }

@@ -7,7 +7,7 @@ public class ParkingSpotDTO {
     @NotBlank  // Vem da dependência validation -> Serve para verificar se não está vazio
     private String parkingSpotNumber;
     @NotBlank
-    @Size(max = 7)  // Vem da dependência validation também -> Serve para verificar se tem o máximo de 7 characters
+    @Size(max = 7)  // Vem da dependência validation -> Serve para verificar se tem o máximo de 7 characters
     private String licensePlateCar;
     @NotBlank
     private String brandCar;
